@@ -1,4 +1,4 @@
-# Loops with Range
+# For Loops with Range
 
 If you have some experience with other programming languages, you may be
 accustomed to for-loops with a variable that's the iteration number. Python
