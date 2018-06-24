@@ -6,6 +6,7 @@
     * [Logical Operators](logical_operators.md)
     * [If Statements](if_statements.md)
     * [Elif and Else Statements](elif_and_else_statements.md)
+    * [Rock, Paper, Scissors](rock_paper_scissors.md)
 * [Lists](lists.md)
 * [Loops](loops.md)
     * [For Loops](for_loops.md)
