@@ -7,7 +7,8 @@ ordered sequence of items.
 
 ```python
 # A list of items are enclosed by square brackets
-# Each item is separated by a comma
+# Each item in a list is called an element
+# Every element is separated by commas
 # And that's right, a variable can store a list just like it can for
 # strings, numbers or booleans
 face = ['eyes', 'nose', 'ears', 'mouth']
