@@ -48,6 +48,7 @@ def add_two_while(numbers):
             count += 1 #Increment the counter, why is this important?
 
 add_two_while([1,2,3,4,10]) # 3,4,5,6,12
+
 # In general, any for-loop can be rewritten as a while-loop.
 # In the above function, the for-loop version is better suited for the task.
 
@@ -81,11 +82,11 @@ Please enter your favourite number!
 
 ## Exercises
 
-1. Write a function `guess_num` that creates a random number between 1
-    and 10 then asks the user to enter a number within that range. If the
-    number is smaller or larger the user will be notified accordingly. The user
-    can only enter if the number entered is correct.
-2. Write a function `print_until_odd` that prints out the elements of a list
-    but stops if the current number is odd. If it prints out every element of
-    the list then display a congratulatory message. If if finds an odd number,
-    tell the user that one was found and exit the loop.
+1. Write a function `guess_num` that creates a random number between 1 and 10
+then asks the user to enter a number within that range. If the number is smaller
+or larger the user will be notified accordingly. The user can only enter if the
+number entered is correct.
+2. Write a function `print_until_odd` that prints out the elements of a list but
+stops if the current number is odd. If it prints out every element of the list
+then display a congratulatory message. If if finds an odd number, tell the user
+that one was found and exit the loop.

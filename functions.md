@@ -76,6 +76,7 @@ king_print2('JAXA is to Japan what NASA is to the USA')
 ```
 
 You should get the same exact output as `king_print`
+
 ```
 For the glrory of the King
 JAXA is to Japan what NASA is to the USA
@@ -200,9 +201,9 @@ my_multiply(7, 5)
 ## Exercises
 
 1. Create a function *rect_perimeter* that takes two arguments, length & width
-    and returns the perimeter
+and returns the perimeter
 2. Create a function *rect_area* that takes two arguments, length & width and
-    returns the area.
+returns the area.
 3. Create a function *super_hi* that takes a name as an argument and **returns**
-    'hi' plus the name in all capital letters For e.g. super_hi('Marcus')
-    returns 'HI MARCUS'. Use the function upper() on a string, 'test'.upper().
+'hi' plus the name in all capital letters For e.g. super_hi('Marcus') returns
+'HI MARCUS'. Use the function upper() on a string, 'test'.upper().

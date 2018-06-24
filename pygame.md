@@ -147,6 +147,7 @@ interesting. That argument is a tuple with four items describing where the
 rectangle is going to be drawn and how big it'll be.
 
 (0, 0, 50, 50)
+
 1. x - 0
 2. y - 0
 3. width - 50
@@ -249,19 +250,18 @@ Nice! That should be all right for the green rectangle for now.
 ## Exercises 1
 
 1. Let's draw one more rectangle, a white rectangle in the centre of the screen.
-    This rectangle will be 40px wide and 80px long. Think about the coordinates
-    a bit. We define the top left coordinates. We can get the centre by halving
-    WIDTH and HEIGHT. Think about how far the top left coordinates are from
-    the centre and you'll figure it out. It may also help if you first placed
-    the top left of the white rectangle in the centre and then figure out the
-    distance.
+This rectangle will be 40px wide and 80px long. Think about the coordinates
+a bit. We define the top left coordinates. We can get the centre by halving
+WIDTH and HEIGHT. Think about how far the top left coordinates are from
+the centre and you'll figure it out. It may also help if you first placed
+the top left of the white rectangle in the centre and then figure out the
+distance.
 2. Read the following documentation for drawing circles:
-    https://www.pygame.org/docs/ref/draw.html#pygame.draw.circle
-    Draw a red circle  of radius 25 in place of the red rectangle. Use (25, 25)
-    as the position.
+https://www.pygame.org/docs/ref/draw.html#pygame.draw.circle. Draw a red circle
+of radius 25 in place of the red rectangle. Use (25, 25) as the position.
 3. Read the following documentation for drawing ellipses:
-    https://www.pygame.org/docs/ref/draw.html#pygame.draw.ellipse
-    Draw a green ellipse in place of the green rectangle
+https://www.pygame.org/docs/ref/draw.html#pygame.draw.ellipse. Draw a green
+ellipse in place of the green rectangle.
 
 The final result should look like this:
 
@@ -306,6 +306,7 @@ variable. At least this way we don't have to worry about forgetting extra
 brackets.
 
 Now let's add two interesting lines of code:
+
 ```python
 star = pygame.image.load('star.png').convert()
 star_rect = star.get_rect()
@@ -396,6 +397,7 @@ The astute coder would notice this line which is new as well:
 ```python
 screen.blit(star, star_rect)
 ```
+
 So why are we doing this? Blit simply means draw and image within the bounds of
 a rectangle on the screen. Why didn't we do this when we drew rectangles? The
 nice developers of Pygame does that for us automatically when we use draw
@@ -469,10 +471,9 @@ animation showing something like this:
 ## Exercises 2
 
 1. To keep the star within bounds we use two if statements. Why couldn't we use
-    an if-else statement there?
+an if-else statement there?
 2. If SPEED was a tuple instead of a list, would the code work? Why/Why not?
 3. Change the FPS from 60 to 30, what changed?
-
 
 ## Intro to Keyboard Input
 
@@ -491,7 +492,7 @@ paused = False # as long as this is False the animation should go on
 So far so good. Now let's get to the fun part! The following code toggles
 our animation's paused state by pressing spacebar on the keyboard:
 
-```python3
+```python
 if event.type == pygame.QUIT:
     pygame.quit()
     sys.exit()
@@ -538,8 +539,8 @@ animation now.
 
 ## Exercises 3
 
-1. Modify the code so that pressing ESC also quits Pygame
+1. Modify the code so that pressing ESC also quits Pygame.
 2. Modify the code so that pressing up changes the direction of the star
-    from top to bottom and vice versa
+from top to bottom and vice versa.
 3. Modify the code so that pressing right changes the direction of the star
-    from left to right and vice versa
+from left to right and vice versa.

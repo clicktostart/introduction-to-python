@@ -109,14 +109,14 @@ ValueError: List item bob is not a number
 ## Exercises
 
 1. For-loops are best suited to finite objects - true or false?
-2. Write a function `product` that uses a for-loop to multiply every item
-    in a list passed as an argument.
+2. Write a function `product` that uses a for-loop to multiply every item in a
+list passed as an argument.
     1. What happens if the empty list is given? Modify the function such that
-        if an empty list is given, 1 is returned
+    if an empty list is given, 1 is returned
     2. What happens if the list has data that aren't numbers? Raise an error
-        if a non-number is detected.
-3. Write a function `my_max` which determines the highest number found in a list.
-    Let's break it down, you will be constantly comparing the current number to
-    last recorded highest number. Think about, the highest number can appear
-    anywhere in the list, right? So what do you compare the first number to?
-    When you create a max_num variable, first set it to -100000000000.
+    if a non-number is detected.
+3. Write a function `my_max` which determines the highest number found in a
+list. Let's break it down, you will be constantly comparing the current number
+to last recorded highest number. Think about, the highest number can appear
+anywhere in the list, right? So what do you compare the first number to? When
+you create a max_num variable, first set it to -100000000000.

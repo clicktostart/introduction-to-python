@@ -38,6 +38,7 @@ if student_profile['loves code']:
 ```
 
 Keep the following in mind while creating dictionaries:
+
 * Use curly braces to put data inside a dictionary
 * Separate each key-value pairing by a comma
 * As with lists and tuples, use square brackets to get values from a dictionary
@@ -57,12 +58,11 @@ student_profile['favourite course'] # 'python'
 
 1.  A dictionary is an unordered sequence of key-value pairs. True or False?
 2.  Consider the dict that contains European football clubs and the amount of
-    Champions League trophies they won:
-    `clubs = {‘real madrid’: 13, ‘ac milan’: 7, ‘bayern munich’: 5, ‘ajax’: 4}`.
+Champions League trophies they won:
+`clubs = {‘real madrid’: 13, ‘ac milan’: 7, ‘bayern munich’: 5, ‘ajax’: 4}`.
     1. Real Madrid are undoubtedly the greatest football team ever created but
-    there’s space for that other Spanish team. Add Barcelona with their measly
-    5 trophies.
-    2. How many trophies did ajax win? Get the value from the dictionary
+    there’s space for that other Spanish team. Add Barcelona with 5 trophies.
+    2. How many trophies did ajax win? Get the value from the dictionary.
     3. We have a function that’s interested in the teams but not so much
     their trophy haul. Return a list of keys for `clubs`
     4. A very ambitious but deluded Manchester City fan claims that his club

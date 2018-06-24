@@ -42,5 +42,5 @@ for i in range(0, len(my_childhood)):
 
 ## Exercises
 
-1. Use the range function to create for loop that prints the numbers 35 to
-    210 in increments of 3
+1. Use the range function to create for loop that prints the numbers 35 to 210
+in increments of 3
