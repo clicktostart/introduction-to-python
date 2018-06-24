@@ -1,4 +1,5 @@
 # Loops
+
 With loops we'll finally have all the Pythonic ingredients to begin making
 games. Loops allow us to repeat tasks over and over again. Think about how we
 used if statements before to check user input:
@@ -17,6 +18,7 @@ I entered 'eric williams'. What if we wanted to give the user 3 times before
 we stop them from trying? Loops can be useful then.
 
 ## For Loops
+
 A for-loop allows us to repeat code for a finite amount of time. In Python, we
 can use the for-loop to **iterate** over a list. The for-loop will go through
 each element of the list one by one, starting with the first and ending with
@@ -66,7 +68,8 @@ my_sum_1([1,2,4,5]) # 12
 ```
 
 ### Better coding with errors
-A good coder knows how to deal with errors. Let's take some bad input for the 
+
+A good coder knows how to deal with errors. Let's take some bad input for the
 my_sum_1 function in the previous section:
 
 ```python
@@ -123,6 +126,7 @@ ValueError: List item bob is not a number
 ```
 
 ### Range Function
+
 If you have some experience with other programming languages, you may be
 accustomed to for-loops with a variable that's the iteration number. Python
 can do that as well:
@@ -164,6 +168,7 @@ for i in range(0, len(my_childhood)):
 ```
 
 ### Exercises 1
+
 1. For-loops are best suited to finite objects - true or false?
 2. Write a function `product` that uses a for-loop to multiply every item
     in a list passed as an argument.
@@ -177,9 +182,10 @@ for i in range(0, len(my_childhood)):
     Let's break it down, you will be constantly comparing the current number to
     last recorded highest number. Think about, the highest number can appear
     anywhere in the list, right? So what do you compare the first number to?
-    When you create a max_num variable, first set it to -100000000000. 
+    When you create a max_num variable, first set it to -100000000000.
 
 ## While Loops
+
 Another common way to loop through code is the while-loop. The for-loop loops
 through a series of objects. The while-loop is considerably different, the loop
 will continue until a condition is met. Similar to if-statements, the
@@ -213,7 +219,7 @@ indefinitely. It's called an infinite loop.
 def bad_countdown(n):
     while n > 0:
         print (n)
-        
+
 # Don't run this kids, it's bad for your health!
 bad_countdown(4)
 
@@ -260,6 +266,7 @@ Please enter your favourite number!
 ```
 
 ### Exercises 2
+
 1. Write a function `guess_num` that creates a random number between 1
     and 10 then asks the user to enter a number within that range. If the
     number is smaller or larger the user will be notified accordingly. The user

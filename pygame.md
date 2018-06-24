@@ -5,6 +5,7 @@ get to the fun part, making games! Well hold your horses for a bit. Before we
 jump in let's get a high-level view of how games work.
 
 ## The Game Loop
+
 The best way to think about games is by thinking about states. Huh? Well a state
 is all the details of the world and objects inside it. Let's say you're doing an
 exam (fun right?). The state at a given point in time would be all the questions
@@ -36,6 +37,7 @@ quits the game.
 ![Game Loop](images/Game_Loop.png)
 
 ### Game Loops And Python
+
 If you think about it, everything you covered in Python can help make the game
 loop. State? Think of storing data in variables, whether the data is a string,
 number, list, tuple or dictionary. Python has the `input` function to get user
@@ -43,7 +45,8 @@ input, we'll learn new functions to get user input. When we do collect user
 input, we'll decide what should happen in the game with if statements. All of
 this will happen in a while loop that ends when the user decides to quit.
 
-## Pygame
+## Getting Started with Pygame
+
 Despite the naming, Pygame isn't actually a game library or framework. It's best
 described as a multimedia library, it focuses on being able to connect to all
 the input and output devices like keyboards, joysticks and speakers. Don't be
@@ -244,6 +247,7 @@ We should now see this:
 Nice! That should be all right for the green rectangle for now.
 
 ## Exercises 1
+
 1. Let's draw one more rectangle, a white rectangle in the centre of the screen.
     This rectangle will be 40px wide and 80px long. Think about the coordinates
     a bit. We define the top left coordinates. We can get the centre by halving
@@ -264,6 +268,7 @@ The final result should look like this:
 ![Shapes](images/Shapes.png)
 
 ## Animation
+
 We're going to step it up a bit and move an image around a screen. You'll learn
 a few more concepts essential to making games and generally feel more awesome!
 Let's kick it off by creating a new file called `star.py`. You'll need to
@@ -462,6 +467,7 @@ animation showing something like this:
 ![Super Star](images/Super_Star.png)
 
 ## Exercises 2
+
 1. To keep the star within bounds we use two if statements. Why couldn't we use
     an if-else statement there?
 2. If SPEED was a tuple instead of a list, would the code work? Why/Why not?
@@ -469,6 +475,7 @@ animation showing something like this:
 
 
 ## Intro to Keyboard Input
+
 Well I need to take a bathroom break, but don't want to miss all the action with
 my star! I got the perfect solution, I'll make it possible to pause my animation
 so that I can take as much breaks as I want for however long without missing
@@ -530,6 +537,7 @@ paused. This is perfect! Try it out and see that you can pause the
 animation now.
 
 ## Exercises 3
+
 1. Modify the code so that pressing ESC also quits Pygame
 2. Modify the code so that pressing up changes the direction of the star
     from top to bottom and vice versa

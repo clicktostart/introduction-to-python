@@ -2,19 +2,20 @@
 
 We know how to use variables to store values. And so far our examples have been
 pretty small and well contained. What if we need to store 1,000 sets of data...
-are we really going to make 1,000 variables? We should never have to. Python 
+are we really going to make 1,000 variables? We should never have to. Python
 and other programming languages caters for this and for other scenarios with a
 variety of **data structures** - methods for storing data in a computer
 in an organised fashion.
 
 ## List
+
 Well, the name kind of gave it away. In Python we use lists to store an
 ordered sequence of items.
 
 ```python
 # A list of items are enclosed by square brackets
 # Each item is separated by a comma
-# And that's right, a variable can store a list just like it can for 
+# And that's right, a variable can store a list just like it can for
 # strings, numbers or booleans
 face = ['eyes', 'nose', 'ears', 'mouth']
 
@@ -36,7 +37,7 @@ listception = ['bob', ['damian', 'junior', 'stephen', 3], 9, 'rita', [67]]
 ```
 
 It's quite easy to make lists. It's also very easy to get an item from a list.
-Recall that lists are an **ordered** sequence of items. To get an item from a 
+Recall that lists are an **ordered** sequence of items. To get an item from a
 list, we can use the item's index - the position of a list item.
 
 ```python
@@ -86,7 +87,7 @@ len(listception) # 5 - ['bob', ['damian', 'junior', 'stephen', 3], 9, 'rita', [6
 len(listception[1]) # 4 - ['damian', 'junior', 'stephen', 3]
 ```
 
-You can use negative numbers for list indices as well. Instead of going from 
+You can use negative numbers for list indices as well. Instead of going from
 left to right, you'll get the items from right to left.
 
 ```python
@@ -97,7 +98,7 @@ favourite_numbers[-3] # 7
 favourite_numbers[-4] # 7
 ```
 
-You should also get accustomed to some common errors. Remember, errors are 
+You should also get accustomed to some common errors. Remember, errors are
 awesome because they tell us exactly what's wrong. Let's try the following:
 
 ```python
@@ -148,7 +149,7 @@ fruits[:3] # ['banana', 'mango', 'tomato']
 
 # Let's take it a step further and put them both together
 fruits[1:4] # ['mango', 'tomato', 'plum']
-# Make sure you understand, you're skipping the first element and going up to 
+# Make sure you understand, you're skipping the first element and going up to
 # the fourth one. Skip banana and stop and plum
 fruits[2:3] # Skip banana and mango, end at tomato. So only tomato!
 ```
@@ -199,6 +200,7 @@ num_list # [0.5, 7, 9, 23]
 ```
 
 ### Lists and If Statements
+
 It's not hard to imagine that there'll be a time when you'd like to know if an
 item is inside a list. Luckily Python makes this dead simple
 
@@ -221,6 +223,7 @@ if awesome_number in evens:
 ```
 
 ### Exercises 1
+
 1. A list has a length of 4, what are its indices?
 2. Consider the list `twelves = [12, 'twelve', [12.0]]`. What are:
     1. `twelves[1]`
@@ -236,13 +239,14 @@ if awesome_number in evens:
     5. Reverse a
 4. Given list `l1 = ['morning', 'noon', 'evening']` and `l2 = [9.9, 3, 11.5]`, create
     a list l3 using list functions and operators so that it has
-    [11.5, 9.9, 3, 'morning', 'noon', 'evening', 9.9, 3, 11.5]. 
+    [11.5, 9.9, 3, 'morning', 'noon', 'evening', 9.9, 3, 11.5].
 5. Write a function is_waldo_here that accepts a list of suspects. If 'waldo' is
-    in the list then **return** "We can find Waldo, go search!". Otherwise 
+    in the list then **return** "We can find Waldo, go search!". Otherwise
     return, "Maybe we'll find him... tomorrow!"
 
 ## Tuples
-Lists are pretty flexible, we can change their values whenever we want to. For 
+
+Lists are pretty flexible, we can change their values whenever we want to. For
 e.g. consider:
 ```python
 peanuts = ['charlie', 'snoopy', 'linus', 'schroeder']
@@ -254,7 +258,7 @@ peanuts  # ['charlie', 'snoopy', 'lucy', 'schroeder']
 
 In programming, the fancy word we use to describe that we can change the value
 after it's set is *mutable*. Tuples are like lists in that they store a sequence
-of data but tuples are *immutable*. You guessed it, once the data is defined 
+of data but tuples are *immutable*. You guessed it, once the data is defined
 then we can't change it.
 
 ```python
@@ -306,19 +310,21 @@ coordinate1[-1] # 3
 ```
 
 ### Exercises 2
+
 1. t1 = ('w', 'a', 'l', 'l', 'e', 4, 0, 4)
     Slice the tuple so that it only contains ('w', 'a', 'l', 'l', 'e')
 2. Write a function funky_points_sum which takes tuples t1 and t2 as arguments
-    and adds the 2nd item of t1 to the 1st item of t2, then multiplies that 
+    and adds the 2nd item of t1 to the 1st item of t2, then multiplies that
     result by the 2nd item of t2 minus the first item of t1.
 
 ## Dictionaries
-A dictionary is a mapping between a key and value. Huh? Well let's remember 
+
+A dictionary is a mapping between a key and value. Huh? Well let's remember
 lists for one bit. Every list item has an index, a number. That's essentially
 a mapping between a number and a value. e.g. `['hi', 'five', 'low', 'slow']` has
 a mapping: 0 -> 'hi', 1 -> 'five', 2 -> 'low', 3 -> 'slow'. A dictionary
-generalises that further, the mapping doens't have to be from a sequential 
-integer to a value but a unique **key**. Dictionaries are sequences of 
+generalises that further, the mapping doens't have to be from a sequential
+integer to a value but a unique **key**. Dictionaries are sequences of
 *key-value* pairings. Let's have a look:
 
 ```python
@@ -366,11 +372,12 @@ student_profile['favourite course'] # 'python'
 ```
 
 ### Exercises 3
+
 1.  A dictionary is an unordered sequence of key-value pairs. True or False?
 2.  Consider the dict that contains European football clubs and the amount of
-    Champions League trophies they won: 
+    Champions League trophies they won:
     `clubs = {‘real madrid’: 12, ‘ac milan’: 7, ‘bayern munich’: 5, ‘ajax’: 4}`.
-    1. Real Madrid are undoubtedly the greatest football team ever created but 
+    1. Real Madrid are undoubtedly the greatest football team ever created but
     there’s space for that other Spanish team. Add Barcelona with their measly
     5 trophies.
     2. How many trophies did ajax win? Get the value from the dictionary
