@@ -1,6 +1,8 @@
 # Lists
 
-Well, the name kind of gave it away. In Python we use lists to store an
+We know how to use variables to store values. So far our examples have been
+pretty small and well contained. What if we need to store 1,000 sets of data...
+are we really going to make 1,000 variables? In Python we use lists to store an
 ordered sequence of items.
 
 ```python
