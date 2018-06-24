@@ -1,7 +1,11 @@
 # Summary
 
 * [Functions](functions.md)
-* [Decisions](decisions.md)
+* [Conditions](conditions.md)
+    * [Booleans](booleans.md)
+    * [Logical Operators](logical_operators.md)
+    * [If Statements](if_statements.md)
+    * [Elif and Else Statements](elif_and_else_statements.md)
 * [Loops](loops.md)
     * [For Loops](for_loops.md)
     * [While Loops](while_loops.md)
