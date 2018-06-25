@@ -1,5 +1,7 @@
 # Summary
 
+* [Variables](variables.md)
+* [Human Input](human_input.md)
 * [Functions](functions.md)
 * [Conditions](conditions.md)
     * [Booleans](booleans.md)
