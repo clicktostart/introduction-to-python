@@ -1,23 +1,27 @@
 # If Statements
 
-So we got True and False values, and ways to figure out if expressions in Python
-are one of those Boolean values. Now all we need to do is tell Python to run
-some code if and only if a condition is true. Luckily it's nearly just like
-English:
+Before our code we wrote would only run sequentially, one line after the other.
+With if statements, our programs can 'branch', executing certain bits of code
+only when certain conditions are met.
 
 ```python
 # Let's set up a variable with the amount of money we got
 money_in_pocket = 100.75
 
+# This code will not run, because money_in_pocket is not greater than 100000
 if money_in_pocket > 100000:
     print('Congratulations, you can buy an Armani handkerchief')
+
+if money_in_pocket <= 200:
+    print('You could use a helping hand, he\'s another $100')
+    money_in_pocket = money_in_pocket + 100
 ```
 
-It's that simple! You beigin the if statement by first typing `if`, then you
-write the conditional expresion, and finally you put a colon just like you did
-for functions. After a colon we indent to show Python where this block of code
-belongs to. Let's see another example, we'll write a function is_even that
-returns true or false if the number is even.
+You begin the if statement by first typing `if`, then you write the conditional
+expresion, and finally you put a colon just like you did for functions. After a
+colon we indent to show Python where this block of code belongs to. Let's see
+another example, we'll write a function `is_even` that returns true or false
+if the argument is an even number.
 
 ```python
 def is_even(num):
