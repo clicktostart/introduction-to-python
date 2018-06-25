@@ -25,3 +25,5 @@ why we added the newline character ourselves.
 1. Create a variable called `age` and prompt the user for theirs. Convert that
 age into an integer (recall you can assign a variable a new value with its
 current one). Multiply that age by 3 and print the result.
+2. Create a python script called `rectangle_perimeter.py`, it asks the user for
+the rectangle's length and width and print the perimeter.
