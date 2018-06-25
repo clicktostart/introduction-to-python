@@ -1,5 +1,11 @@
 # Summary
 
+* [Preface](preface.md)
+* [Background](background.md)
+* [Installing Python](installing_python.md)
+* [Getting Started](getting_started.md)
+* [Basics](basics.md)
+* [Comments](comments.md)
 * [Variables](variables.md)
 * [Human Input](human_input.md)
 * [Functions](functions.md)
