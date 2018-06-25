@@ -79,12 +79,39 @@ errors as they come up!
 
 ## Type Conversion
 
-Create two variables a and b with one storing a number and the other storing
-a number as a string e.g (a = 4, b = "21"). Add them together, what happens? In
-Python, if a string is a number you can convert it using the `int()` functions.
-Try `a + int(b)`, are the results what you expected. You can also convert
-numbers to strings using the `str()` function. Try str(a) + b, are the results
-what you expected?
+We might get data in one format and want to do an operation with it in another
+format. Python allows us to convert from type to another to allow this. Let's see
+
+```python
+a = 4
+b = '21'
+c = 'que pasa?'
+
+# Try to run this, it fails
+# a + b
+# You should get the following error:
+# TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+# Let's try something else:
+print(a + int(b))
+
+# We use int(b) to convert b from a string to an integer, that way we can add it
+# like we do with every other number
+
+# Let's try to convert c to an integer, it will fail
+# print(int(c))
+# ValueError: invalid literal for int() with base 10: 'que pasa?'
+
+# For a string to be converted to a number, the entire string must be a number
+
+# We can convert integers to strings
+print(str(a) + b) # Will be '421', string concatenation remember?
+
+# Strings can also be converted to floats:
+gpa = "3.8"
+perfect_gpa = float(3.8) + 0.2
+print(perfect_gpa)
+```
 
 ## Exercises
 
@@ -92,5 +119,3 @@ what you expected?
 of 3, 4 and 5 respectively. What is the perimeter of this triangle? This
 triangle is right triangle, with side1 and side2 and as the base and height, can
 you create a variable and store its area?
-2. Create a python script called `rectangle_perimeter.py`, it asks the user for
-the rectangle's length and width and print the perimeter.
