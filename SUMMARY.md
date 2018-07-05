@@ -24,5 +24,7 @@
     * [Dictionaries](dictionaries.md)
 * [Pygame](pygame.md)
 * [Extra Content](extra_content.md)
+    * [Computers and Code](computers_and_code.md)
+    * [More About Python](about_python.md)
     * [For Loops with Range](for_loops_with_range.md)
     * [List Slicing](list_slicing.md)
