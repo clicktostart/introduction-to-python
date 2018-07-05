@@ -22,15 +22,20 @@ a <= 1400                       # Less than or equal to
 
 ## Exercises
 
-Work out whether the following would be True or False
-1. 10 < 17 or (not False and 7 == 7.0)
-2. 'Justin' == "Justin"
-3.  energy_level = 3
+1. Work out whether the following would be True or False
+    1. 10 < 17 or (not False and 7 == 7.0)
+    2. 'Justin' == "Justin"
+    3.
+
+    ```python
+    energy_level = 3
 
     low_energy = energy_level < 5
 
     likes_coffee = True
 
     low_energy and likes_coffee
-4. not (10 == 1 or 1000 == 1000)
-5. "bunji" == "bunji" or "machel" == "soca king"
+    ```
+
+2. not (10 == 1 or 1000 == 1000)
+3. "bunji" == "bunji" or "machel" == "soca king"
