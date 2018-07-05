@@ -17,9 +17,12 @@ we want.
 
 ## Python
 
-* interpreted
-* high level
-
+Python is a straightforward, near English like programming language that's used
+by tons of organisations and newcomers alike. There's a lot of features about
+Python which you're encouraged to read about [here](about_python.md). One key
+thing to note is that Python is generally regarded as an interpreted languauge.
+This means that code can be run line by line - for you that means Python can
+give you quick feedback on whether your programs work or not.
 
 ### Version 3
 
