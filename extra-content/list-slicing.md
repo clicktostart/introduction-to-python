@@ -1,6 +1,6 @@
 # List Slicing
 
-Now that you're comfortable with indices, let's to some cool things with lists. Slicing is taking a portion of a list and creating a new one. Think of it like cutting a slice of cake, but the original one stays intact \(wouldn't that be absolutely amazing?\). Let's see below:
+Slicing is taking a portion of a list and creating a new one. Think of it like cutting a slice of cake, but the original one stays intact \(wouldn't that be absolutely amazing?\). Let's see below:
 
 ```python
 fruits = ['banana', 'mango', 'tomato', 'plum', 'guava']
@@ -29,4 +29,3 @@ fruits[1:4] # ['mango', 'tomato', 'plum']
 # the fourth one. Skip banana and stop and plum
 fruits[2:3] # Skip banana and mango, end at tomato. So only tomato!
 ```
-
