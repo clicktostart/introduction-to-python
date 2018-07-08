@@ -139,7 +139,7 @@ You would have observed that we have more colours, let's draw another rectangle 
 
 The tricky part of this would be the position so let's think about it for a bit. Every Pygame object on the screen has a corresponding rectangle with its coordinates. As we mentioned before the coordinates are 4 numbers describing how far away an object is from the origin on its: x coordinate, y coordinate, width and height. The x and y coordinates are for the **top left** of the shape.
 
-We know the screen's top left is \(0, 0\), the top right is \(WIDTH, 0\), the bottom left is \(0, HEIGHT\). So what's the bottom right corner? That's right: \(WIDTH, HEIGHT\). Confused? If you went all the way to the right you travelled the entire width of the game screen. If you went all the way to the bottom you travelled the entire height of the game screen. Put them together and you got bottom right.
+We know the screen's top left is `(0, 0)`, the top right is `(WIDTH, 0)`, the bottom left is `(0, HEIGHT)`. So what's the bottom right corner? That's right: `(WIDTH, HEIGHT)`. Confused? If you went all the way to the right you travelled the entire width of the game screen. If you went all the way to the bottom you travelled the entire height of the game screen. Put them together and you got bottom right.
 
 1. x - we need this to be 30px away from the right. So, WIDTH - 30
 2. y - we need this to be 20px away from the bottom. So. HEIGHT - 20
@@ -166,35 +166,11 @@ Nice! That should be all right for the green rectangle for now.
 
 ## Exercises 1
 
-1. Let's draw one more rectangle, a white rectangle in the centre of the screen.
+1. Let's draw one more rectangle, a white rectangle in the centre of the screen. This rectangle will be 40px wide and 80px long. Think about the coordinates a bit. We define the top left coordinates. We can get the centre by halving `WIDTH` and `HEIGHT`. Think about how far the top left coordinates are from the centre and you'll figure it out. It may also help if you first placed the top left of the white rectangle in the centre and then figure out the distance.
+2. Read the following documentation for drawing circles https://www.pygame.org/docs/ref/draw.html#pygame.draw.circle. Draw a red circle of radius 25 in place of the red rectangle. Use \(25, 25\) as the position.
+3. Read the following documentation for drawing ellipses: https://www.pygame.org/docs/ref/draw.html#pygame.draw.ellipse. Draw a green ellipse in place of the green rectangle.
 
-   This rectangle will be 40px wide and 80px long. Think about the coordinates
-
-   a bit. We define the top left coordinates. We can get the centre by halving
-
-   WIDTH and HEIGHT. Think about how far the top left coordinates are from
-
-   the centre and you'll figure it out. It may also help if you first placed
-
-   the top left of the white rectangle in the centre and then figure out the
-
-   distance.
-
-2. Read the following documentation for drawing circles:
-
-   [https://www.pygame.org/docs/ref/draw.html\#pygame.draw.circle](https://www.pygame.org/docs/ref/draw.html#pygame.draw.circle). Draw a red circle
-
-   of radius 25 in place of the red rectangle. Use \(25, 25\) as the position.
-
-3. Read the following documentation for drawing ellipses:
-
-   [https://www.pygame.org/docs/ref/draw.html\#pygame.draw.ellipse](https://www.pygame.org/docs/ref/draw.html#pygame.draw.ellipse). Draw a green
-
-   ellipse in place of the green rectangle.
-
-The final result should look like this:
-
-![Shapes](.gitbook/assets/shapes.png)
+The final result should look like this: ![Shapes](.gitbook/assets/shapes.png)
 
 ## Animation
 
@@ -221,7 +197,7 @@ BLACK = (0, 0, 0)
 screen = pygame.display.set_mode(SIZE)
 ```
 
-Python gets more interesting does it? While WIDTH and HEIGHT have the individual values of the screen's dimensions, SIZE is a tuple containing the values. Why make the extra variable? It makes it cleaner when setting the size in the screen variable. At least this way we don't have to worry about forgetting extra brackets.
+Python gets more interesting does it? While `WIDTH` and `HEIGHT` have the individual values of the screen's dimensions, `SIZE` is a tuple containing the values. Why make the extra variable? It makes it cleaner when setting the size in the screen variable. At least this way we don't have to worry about forgetting extra brackets.
 
 Now let's add two interesting lines of code:
 
@@ -341,10 +317,7 @@ Now with those additions run your code. Much better! You should have a smooth an
 
 ## Exercises 2
 
-1. To keep the star within bounds we use two if statements. Why couldn't we use
-
-   an if-else statement there?
-
+1. To keep the star within bounds we use two if statements. Why couldn't we use an if-else statement there?
 2. If SPEED was a tuple instead of a list, would the code work? Why/Why not?
 3. Change the FPS from 60 to 30, what changed?
 
@@ -397,11 +370,5 @@ Pay attention to the indentation!!! So now our star only moves if it is not paus
 ## Exercises 3
 
 1. Modify the code so that pressing ESC also quits Pygame.
-2. Modify the code so that pressing up changes the direction of the star
-
-   from top to bottom and vice versa.
-
-3. Modify the code so that pressing right changes the direction of the star
-
-   from left to right and vice versa.
-
+2. Modify the code so that pressing up changes the direction of the star from top to bottom and vice versa.
+3. Modify the code so that pressing right changes the direction of the star from left to right and vice versa.
