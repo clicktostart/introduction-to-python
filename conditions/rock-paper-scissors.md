@@ -1,7 +1,6 @@
 # Rock, Paper, Scissors
 
-Let's get even more practice with if-elif-else statements. Create a new
-file called `rps.py` and following along with the code, filling in as necessary:
+Let's get even more practice with if-elif-else statements. Create a new file called `rps.py` and following along with the code, filling in as necessary:
 
 ```python
 # We're going to have Python generate a random number for us
@@ -46,3 +45,4 @@ def rps_winner(player1_choice, player2_choice):
 
 print(rps_winner(human_choice, computer_choice))
 ```
+

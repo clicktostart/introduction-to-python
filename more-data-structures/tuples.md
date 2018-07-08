@@ -1,7 +1,6 @@
 # Tuples
 
-Lists are pretty flexible, we can change their values whenever we want to. For
-e.g. consider:
+Lists are pretty flexible, we can change their values whenever we want to. For e.g. consider:
 
 ```python
 peanuts = ['charlie', 'snoopy', 'linus', 'schroeder']
@@ -11,10 +10,7 @@ peanuts[2] = 'lucy'
 peanuts  # ['charlie', 'snoopy', 'lucy', 'schroeder']
 ```
 
-In programming, the fancy word we use to describe that we can change the value
-after it's set is *mutable*. Tuples are like lists in that they store a sequence
-of data but tuples are *immutable*. You guessed it, once the data is defined
-then we can't change it.
+In programming, the fancy word we use to describe that we can change the value after it's set is _mutable_. Tuples are like lists in that they store a sequence of data but tuples are _immutable_. You guessed it, once the data is defined then we can't change it.
 
 ```python
 # For tuples, we use normal brackets as opposed to square brackets
@@ -38,7 +34,7 @@ coordinate1[1] = 26 # (1, 26, 3) right? Nope...
 
 You should get the following error
 
-```
+```text
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: 'tuple' object does not support item assignment
@@ -53,9 +49,7 @@ x_o = ('x',) # So a tuple with a single element needs to trailing comma
 x_o += ('o',) # ('x', 'o')
 ```
 
-Wait a minute, tuples are immutable so why are we changing them? Well
-the + operator is actually creating a new tuple. As we learn about Classes and
-Objects we'll also learn about references and why this is important and correct.
+Wait a minute, tuples are immutable so why are we changing them? Well the + operator is actually creating a new tuple. As we learn about Classes and Objects we'll also learn about references and why this is important and correct.
 
 Before we get more practice with tuples, one more bit of fun!
 
@@ -70,8 +64,13 @@ coordinate1[-1] # 3
 
 ## Exercises
 
-1. t1 = ('w', 'a', 'l', 'l', 'e', 4, 0, 4)
-Slice the tuple so that it only contains ('w', 'a', 'l', 'l', 'e').
-2. Write a function funky_points_sum which takes tuples t1 and t2 as arguments
-and adds the 2nd item of t1 to the 1st item of t2, then multiplies that result
-by the 2nd item of t2 minus the first item of t1.
+1. t1 = \('w', 'a', 'l', 'l', 'e', 4, 0, 4\)
+
+   Slice the tuple so that it only contains \('w', 'a', 'l', 'l', 'e'\).
+
+2. Write a function funky\_points\_sum which takes tuples t1 and t2 as arguments
+
+   and adds the 2nd item of t1 to the 1st item of t2, then multiplies that result
+
+   by the 2nd item of t2 minus the first item of t1.
+

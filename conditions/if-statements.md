@@ -1,8 +1,6 @@
 # If Statements
 
-Before our code we wrote would only run sequentially, one line after the other.
-With if statements, our programs can 'branch', executing certain bits of code
-only when certain conditions are met.
+Before our code we wrote would only run sequentially, one line after the other. With if statements, our programs can 'branch', executing certain bits of code only when certain conditions are met.
 
 ```python
 # Let's set up a variable with the amount of money we got
@@ -17,11 +15,7 @@ if money_in_pocket <= 200:
     money_in_pocket = money_in_pocket + 100
 ```
 
-You begin the if statement by first typing `if`, then you write the conditional
-expresion, and finally you put a colon just like you did for functions. After a
-colon we indent to show Python where this block of code belongs to. Let's see
-another example, we'll write a function `is_even` that returns true or false
-if the argument is an even number.
+You begin the if statement by first typing `if`, then you write the conditional expresion, and finally you put a colon just like you did for functions. After a colon we indent to show Python where this block of code belongs to. Let's see another example, we'll write a function `is_even` that returns true or false if the argument is an even number.
 
 ```python
 def is_even(num):
@@ -45,8 +39,7 @@ is_even(19)
 # False
 ```
 
-Because that function returns either True or False, we can treat it like another
-Boolean value and use it in expressions. Let's consider checking if it's odd:
+Because that function returns either True or False, we can treat it like another Boolean value and use it in expressions. Let's consider checking if it's odd:
 
 ```python
 def is_odd(num):
@@ -61,8 +54,7 @@ is_odd(103)
 # True
 ```
 
-Let's write a function to determine if someone needs to get a valid National ID
-card:
+Let's write a function to determine if someone needs to get a valid National ID card:
 
 ```python
 # Functions takes the person's age and returns either True or False
@@ -83,8 +75,7 @@ needs_id(25)
 # True
 ```
 
-An if statement would not be necessary for this function if it didn't need to
-print to the screen
+An if statement would not be necessary for this function if it didn't need to print to the screen
 
 ```python
 def needs_id_simple(age):
@@ -93,3 +84,4 @@ def needs_id_simple(age):
 needs_id_simple(67) # True
 needs_id_simple(3) # False
 ```
+

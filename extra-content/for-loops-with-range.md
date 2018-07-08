@@ -1,8 +1,6 @@
 # For Loops with Range
 
-If you have some experience with other programming languages, you may be
-accustomed to for-loops with a variable that's the iteration number. Python
-can do that as well:
+If you have some experience with other programming languages, you may be accustomed to for-loops with a variable that's the iteration number. Python can do that as well:
 
 ```python
 # We can use the range function
@@ -43,4 +41,6 @@ for i in range(0, len(my_childhood)):
 ## Exercises
 
 1. Use the range function to create for loop that prints the numbers 35 to 210
-in increments of 3
+
+   in increments of 3
+

@@ -1,9 +1,6 @@
 # Lists
 
-We know how to use variables to store values. So far our examples have been
-pretty small and well contained. What if we need to store 1,000 sets of data...
-are we really going to make 1,000 variables? In Python we use lists to store an
-ordered sequence of items.
+We know how to use variables to store values. So far our examples have been pretty small and well contained. What if we need to store 1,000 sets of data... are we really going to make 1,000 variables? In Python we use lists to store an ordered sequence of items.
 
 ```python
 # A list of items are enclosed by square brackets
@@ -30,9 +27,7 @@ random_list = ['hill', 12, 'c', random_variable]
 listception = ['bob', ['damian', 'junior', 'stephen', 3], 9, 'rita', [67]]
 ```
 
-It's quite easy to make lists. It's also very easy to get an item from a list.
-Recall that lists are an **ordered** sequence of items. To get an item from a
-list, we can use the item's index - the position of a list item.
+It's quite easy to make lists. It's also very easy to get an item from a list. Recall that lists are an **ordered** sequence of items. To get an item from a list, we can use the item's index - the position of a list item.
 
 ```python
 # Let's take the face variable from before
@@ -47,9 +42,7 @@ face[2] # Third item, 'ears'
 face[3] # Fourth item, 'mouth'
 ```
 
-As you've noticed, the last item is one less than the length of the list. Let's
-say you didn't create the list, how would know it's length? Use the `len`
-function
+As you've noticed, the last item is one less than the length of the list. Let's say you didn't create the list, how would know it's length? Use the `len` function
 
 ```python
 len(face)       # 4
@@ -81,8 +74,7 @@ len(listception) # 5 - ['bob', ['damian', 'junior', 'stephen', 3], 9, 'rita', [6
 len(listception[1]) # 4 - ['damian', 'junior', 'stephen', 3]
 ```
 
-You can use negative numbers for list indices as well. Instead of going from
-left to right, you'll get the items from right to left.
+You can use negative numbers for list indices as well. Instead of going from left to right, you'll get the items from right to left.
 
 ```python
 favourite_numbers = [3, 42, 69, 7]
@@ -92,8 +84,7 @@ favourite_numbers[-3] # 7
 favourite_numbers[-4] # 7
 ```
 
-You should also get accustomed to some common errors. Remember, errors are
-awesome because they tell us exactly what's wrong. Let's try the following:
+You should also get accustomed to some common errors. Remember, errors are awesome because they tell us exactly what's wrong. Let's try the following:
 
 ```python
 favourite_numbers = [3, 42, 69, 7]
@@ -103,20 +94,17 @@ favourite_numbers[-5]
 
 If you try the above in your Python interpreter you should get
 
-```
+```text
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 IndexError: list index out of range
 ```
 
-So if ever you see that error you know that the list doesn't have an item for
-that index. Either the list is missing items or the index is inappropriate for
-the list.
+So if ever you see that error you know that the list doesn't have an item for that index. Either the list is missing items or the index is inappropriate for the list.
 
 ## List Functions
 
-Lists also come with useful functions that can changed the elements contained
-within. Let's look at how easy it is to add to a list:
+Lists also come with useful functions that can changed the elements contained within. Let's look at how easy it is to add to a list:
 
 ```python
 my_first_list = ['bleach', 'naruto']
@@ -137,11 +125,7 @@ alpha.append('g')
 alpha # ['a', 'b', 'c', 'd', 'e', 'f', 'g']
 ```
 
-`append` simply adds an item to the end of the list. You may be asking... why does
-that function come after the list and '.'? That's because, it's no ordinary
-function, it's a method. We'll learn more about them later when we discucss
-Classes and Objects. For now, think of lists as special variables that can
-store both data and functions, which we call methods.
+`append` simply adds an item to the end of the list. You may be asking... why does that function come after the list and '.'? That's because, it's no ordinary function, it's a method. We'll learn more about them later when we discucss Classes and Objects. For now, think of lists as special variables that can store both data and functions, which we call methods.
 
 ```python
 # Here are a couple other nifty functions that your list has access to
@@ -159,8 +143,7 @@ num_list # [0.5, 7, 9, 23]
 
 ## Lists and If Statements
 
-It's not hard to imagine that there'll be a time when you'd like to know if an
-item is inside a list. Luckily Python makes this dead simple
+It's not hard to imagine that there'll be a time when you'd like to know if an item is inside a list. Luckily Python makes this dead simple
 
 ```python
 cool_kids = ['carla', 'prakash', 'john', 'priya', 'mei']
@@ -184,19 +167,25 @@ if awesome_number in evens:
 
 1. A list has a length of 4, what are its indices?
 2. Consider the list `twelves = [12, 'twelve', [12.0]]`. What are:
-    1. `twelves[1]`
-    2. `twelves[2]`
-    3. `twelves[-8]`
-    4. `twelves[-1][0] / 3`
-    5. `twelves[-3]`
+   1. `twelves[1]`
+   2. `twelves[2]`
+   3. `twelves[-8]`
+   4. `twelves[-1][0] / 3`
+   5. `twelves[-3]`
 3. Consider `a = [12, 45, 88, 93, 232, 121]`
-    1. Add 33 to a
-    2. Add 90 to b
-    3. Sort b
-    4. Reverse a
+   1. Add 33 to a
+   2. Add 90 to b
+   3. Sort b
+   4. Reverse a
 4. Given list `l1 = ['morning', 'noon', 'evening']` and `l2 = [9.9, 3, 11.5]`, create
+
     a list l3 using list functions and operators so that it has
-    [11.5, 9.9, 3, 'morning', 'noon', 'evening', 9.9, 3, 11.5].
-5. Write a function is_waldo_here that accepts a list of suspects. If 'waldo' is
+
+    \[11.5, 9.9, 3, 'morning', 'noon', 'evening', 9.9, 3, 11.5\].
+
+5. Write a function is\_waldo\_here that accepts a list of suspects. If 'waldo' is
+
     in the list then **return** "We can find Waldo, go search!". Otherwise
+
     return, "Maybe we'll find him... tomorrow!"
+

@@ -1,10 +1,6 @@
 # Logical Operators
 
-Given what we know so far, we know the result of comparing two numbers or string
-lengths - it's either True or False. We know that Boolean values and Boolean
-expressions (code that needs to be evaluated to True or False) can use logical
-operations or/and/not. For other data types we can get Boolean expressions with
-comparative operators.
+Given what we know so far, we know the result of comparing two numbers or string lengths - it's either True or False. We know that Boolean values and Boolean expressions \(code that needs to be evaluated to True or False\) can use logical operations or/and/not. For other data types we can get Boolean expressions with comparative operators.
 
 ```python
 # All the following code evaluates to True
@@ -22,12 +18,9 @@ a <= 1400                       # Less than or equal to
 
 ## Exercises
 
-1. Work out whether the following would be True or False
-    1. 10 < 17 or (not False and 7 == 7.0)
-    2. 'Justin' == "Justin"
-    3.
+1. Work out whether the following would be True or False 1. 10 &lt; 17 or \(not False and 7 == 7.0\) 2. 'Justin' == "Justin" 3.
 
-    ```python
+   ```python
     energy_level = 3
 
     low_energy = energy_level < 5
@@ -35,7 +28,8 @@ a <= 1400                       # Less than or equal to
     likes_coffee = True
 
     low_energy and likes_coffee
-    ```
+   ```
 
-2. not (10 == 1 or 1000 == 1000)
+2. not \(10 == 1 or 1000 == 1000\)
 3. "bunji" == "bunji" or "machel" == "soca king"
+

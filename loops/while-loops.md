@@ -1,13 +1,6 @@
 # While Loops
 
-Another common way to loop through code is the while-loop. The for-loop loops
-through a series of objects. The while-loop is considerably different, the loop
-will continue until a condition is met. Similar to if-statements, the
-while-statement evaluates a boolean expression to determine if it's True or
-False. It does that evaluation at the beginning of every iteration. If the
-expression evaluates to False then the loop is exited and the subsequent code
-is run. If it's True, then the code in the while-loop is run and condition is
-re-evaluated once again.
+Another common way to loop through code is the while-loop. The for-loop loops through a series of objects. The while-loop is considerably different, the loop will continue until a condition is met. Similar to if-statements, the while-statement evaluates a boolean expression to determine if it's True or False. It does that evaluation at the beginning of every iteration. If the expression evaluates to False then the loop is exited and the subsequent code is run. If it's True, then the code in the while-loop is run and condition is re-evaluated once again.
 
 ```python
 # We can start off simple with a countdown
@@ -20,15 +13,10 @@ countdown(5) # 5,4,3,2,1
 countdown(-10) # Nothing, -10 is less than 0 so the loop never runs
 ```
 
-It's pretty simple, after typing 'while' you put the boolean expression and
-then a semi-colon. All the code under the while block will be executed. After
-the last line of while-loop block (n = n - 1) the condition is then evaluated
-again. It stops when n = 0 in our example.
+It's pretty simple, after typing 'while' you put the boolean expression and then a semi-colon. All the code under the while block will be executed. After the last line of while-loop block \(n = n - 1\) the condition is then evaluated again. It stops when n = 0 in our example.
 
-So what happens if we don't have that last line which decreases the value of n?
-Well Python, as with all programming languages, does what it tell it do. As n
-doesn't decrease and will always be greater than 0, and the loop will continue
-indefinitely. It's called an infinite loop.
+So what happens if we don't have that last line which decreases the value of n? Well Python, as with all programming languages, does what it tell it do. As n doesn't decrease and will always be greater than 0, and the loop will continue indefinitely. It's called an infinite loop.
+
 ```python
 def bad_countdown(n):
     while n > 0:
@@ -68,10 +56,9 @@ def get_favourite_number():
 # For-loops can use the break-statement as well
 ```
 
-Let's see this sample execution of the get favourite number function:
-`get_favourite_number()`
+Let's see this sample execution of the get favourite number function: `get_favourite_number()`
 
-```
+```text
 Please enter your favourite number!
 dfds
 You did not enter a valid number, try again
@@ -83,10 +70,18 @@ Please enter your favourite number!
 ## Exercises
 
 1. Write a function `guess_num` that creates a random number between 1 and 10
-then asks the user to enter a number within that range. If the number is smaller
-or larger the user will be notified accordingly. The user can only enter if the
-number entered is correct.
+
+   then asks the user to enter a number within that range. If the number is smaller
+
+   or larger the user will be notified accordingly. The user can only enter if the
+
+   number entered is correct.
+
 2. Write a function `print_until_odd` that prints out the elements of a list but
-stops if the current number is odd. If it prints out every element of the list
-then display a congratulatory message. If if finds an odd number, tell the user
-that one was found and exit the loop.
+
+   stops if the current number is odd. If it prints out every element of the list
+
+   then display a congratulatory message. If if finds an odd number, tell the user
+
+   that one was found and exit the loop.
+
