@@ -1,7 +1,7 @@
 # Installing Python
 
 If you have a modern Linux distribution or macOS, then you probably have Python
-3 setup already. Open the Terminal and enter python3 to see it up and running.
+3 setup already. Open the Terminal and enter `python3` to see it up and running.
 If you don't then the steps for Windows will generally work for you too, just
 that you'll use the Terminal instead of Powershell.
 

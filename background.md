@@ -10,7 +10,7 @@ task. Computers aren't too good at guessing what we do, and if they are good
 then we probably told it how to guess. Programming is how we tell the computer
 exactly what we need it to do.
 
-Humans speaking in various languages like English, Spanish, French, Portuguese,
+Humans speak in various languages like English, Spanish, French, Portuguese,
 Dutch etc. These are called natural languages. Computers can't naturally
 understand our languages, so we use programming languages to communicate what
 we want.
