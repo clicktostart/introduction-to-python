@@ -51,22 +51,12 @@ student_profile['favourite course'] # 'python'
 ## Exercises
 
 1. A dictionary is an unordered sequence of key-value pairs. True or False?
-2. Consider the dict that contains European football clubs and the amount of
-
-   Champions League trophies they won:
+2. Consider the dict that contains European football clubs and the amount of Champions League trophies they won:
 
    `clubs = {‘real madrid’: 13, ‘ac milan’: 7, ‘bayern munich’: 5, ‘ajax’: 4}`.
 
-   1. Real Madrid are undoubtedly the greatest football team ever created but
-
-      there’s space for that other Spanish team. Add Barcelona with 5 trophies.
-
+   1. Real Madrid are undoubtedly the greatest football team ever created but there’s space for that other Spanish team. Add Barcelona with 5 trophies.
    2. How many trophies did ajax win? Get the value from the dictionary.
-   3. We have a function that’s interested in the teams but not so much
-
-      their trophy haul. Return a list of keys for `clubs`
-
-   4. A very ambitious but deluded Manchester City fan claims that his club
-
-      has won champions league. Verify with a condition that his club has not.
+   3. We have a function that’s interested in the teams but not so much their trophy haul. Return a list of keys for `clubs`
+   4. A very ambitious but deluded Manchester City fan claims that his club has won champions league. Verify with a condition that his club has not.
 

@@ -164,17 +164,7 @@ my_multiply(7, 5)
 
 ## Exercises
 
-1. Create a function _rect\_perimeter_ that takes two arguments, length & width
-
-   and returns the perimeter
-
-2. Create a function _rect\_area_ that takes two arguments, length & width and
-
-   returns the area.
-
-3. Create a function _super\_hi_ that takes a name as an argument and **returns**
-
-   'hi' plus the name in all capital letters For e.g. super\_hi\('Marcus'\) returns
-
-   'HI MARCUS'. Use the function upper\(\) on a string, 'test'.upper\(\).
+1. Create a function `rect_perimeter` that takes two arguments, `length` & `width` and returns the perimeter
+2. Create a function `rect_area` that takes two arguments, `length` & `width` and returns the area.
+3. Create a function `super_hi` that takes a name as an argument and **returns** 'hi' plus the name in all capital letters For e.g. `super_hi('Marcus')` returns 'HI MARCUS'. Use the function `upper()` on a string,  e.g. `'test'.upper()`.
 

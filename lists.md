@@ -177,15 +177,6 @@ if awesome_number in evens:
    2. Add 90 to b
    3. Sort b
    4. Reverse a
-4. Given list `l1 = ['morning', 'noon', 'evening']` and `l2 = [9.9, 3, 11.5]`, create
-
-    a list l3 using list functions and operators so that it has
-
-    \[11.5, 9.9, 3, 'morning', 'noon', 'evening', 9.9, 3, 11.5\].
-
-5. Write a function is\_waldo\_here that accepts a list of suspects. If 'waldo' is
-
-    in the list then **return** "We can find Waldo, go search!". Otherwise
-
-    return, "Maybe we'll find him... tomorrow!"
+4. Given list `l1 = ['morning', 'noon', 'evening']` and `l2 = [9.9, 3, 11.5]`, create a list l3 using list functions and operators so that it has \[11.5, 9.9, 3, 'morning', 'noon', 'evening', 9.9, 3, 11.5\].
+5. Write a function `is_waldo_here` that accepts a list of suspects. If 'waldo' is in the list then **return** "We can find Waldo, go search!". Otherwise return, "Maybe we'll find him... tomorrow!"
 
