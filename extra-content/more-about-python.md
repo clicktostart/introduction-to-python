@@ -18,7 +18,7 @@ As mentioned before, these take code from a high level language and convert them
 
 Python is described an interpreted language. You can get away with saying that but unfortunately it's not that simple. Strictly speaking, the Python programming language is neither compiled nor interpreted, its implementation can be. The language is the rules by which a program can be created, it's implementation can vary how it is executed. It's also quite common for languages to neither be compiled or interpreted, sometimes they're a bit of both.
 
-The Python used in this course is referred to as CPython, which is interpreted. There are other implementations of the Python language like PyPy, Jython, and IronPython. Those aren't entirely interpreted. Look at [this discussion on Stack Overflow for some interesting details](https://stackoverflow.com/questions/6889747/is-python-interpreted-or-compiled-or-both).
+The Python implementation used in this course is referred to as CPython, which is interpreted. There are other implementations of the Python language like PyPy, Jython, and IronPython. Those aren't entirely interpreted. Look at [this discussion on Stack Overflow for some interesting details](https://stackoverflow.com/questions/6889747/is-python-interpreted-or-compiled-or-both).
 
 ## Object Oriented
 
