@@ -26,10 +26,12 @@ Like before, we can multiply by positive and negative numbers, as well as 0. Pay
 
 In the first example had 10 and 2, and the shell returned `5.0`. This is deliberate, if Python didn't return a decimal value we could potentially lose the true value, as we see in the second example when the division has a remainder. As before, doesn't matter if a number is positive or negative.The last example also showed that we can mix and match to get results. Let's try to break things and divide by 0:
 
-    >>> 5 / 0
-    Traceback (most recent call last):
-       File "<stdin>", line 1, in <module>
-    ZeroDivisionError: division by zero
+```text
+>>> 5 / 0
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ZeroDivisionError: division by zero
+```
 
 We got another error! Division by 0 isn't possible, so Python raises an error to stop it from ever happening. Imagine a computer trying to work out how to divide a number by 0, it'll take forever trying to figure it out or return an erroneous result that could affect further processing. Programmers write code for all kinds of situations, sometimes the code is critical to human safety like software that helps airplane navigation. If we don't watch for errors the results can be truly disastrous.
 

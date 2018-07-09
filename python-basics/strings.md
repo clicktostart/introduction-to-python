@@ -14,11 +14,13 @@ print('Hello World")
 
 We should get the following error
 
-        >>> print('Hello World")
-        File "<stdin>", line 1
+```text
+    >>> print('Hello World")
+    File "<stdin>", line 1
         print('Hello World")
-                    ^
-    SyntaxError: EOL while scanning string literal
+                       ^
+SyntaxError: EOL while scanning string literal
+```
 
 Congrats, you got your first error! Errors are good things for learning, it helps us find out what's wrong with our program. We'll encounter quite a lot of these as we go on, it's all part of the process so don't be alarmed when they come up. What this error tells us is that the code we wrote isn't valid Python code - the syntax is off. That's because if we start a string with a single quote we must end it with a single quote. The same is true for double quotes. So, while these are valid:
 
