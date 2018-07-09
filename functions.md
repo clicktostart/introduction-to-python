@@ -47,7 +47,7 @@ Functions allow for high levels of code reusability. Any time we need to print t
 
 Let's say the mad king wants to change the last line from "He is mighty!" to "He is supreme!!!". We still want to avoid prison for a bad print statement, so we need to change all our prints now! Luckily, since we have a function, we only need to change the function definition. If we didn't have a function, we'd have to change every single that prints "He is mighty!". Imagine if we printed that 1000 times, yikes.
 
-Let's look at another way to write the king\_print function
+Let's look at another way to write the `king_print` function
 
 ```python
 # Let's first define the function
@@ -70,7 +70,7 @@ If we decided to share our function with other poor citizens, they won't really 
 
 ## Anatomy of a Function
 
-You probably noticed from the earlier examples how we create functions. Let's look at the king\_print function once more:
+You probably noticed from the earlier examples how we create functions. Let's look at the `king_print` function once more:
 
 ```python
 def king_print(message):
@@ -167,4 +167,3 @@ my_multiply(7, 5)
 1. Create a function `rect_perimeter` that takes two arguments, `length` & `width` and returns the perimeter
 2. Create a function `rect_area` that takes two arguments, `length` & `width` and returns the area.
 3. Create a function `super_hi` that takes a name as an argument and **returns** 'hi' plus the name in all capital letters For e.g. `super_hi('Marcus')` returns 'HI MARCUS'. Use the function `upper()` on a string,  e.g. `'test'.upper()`.
-
