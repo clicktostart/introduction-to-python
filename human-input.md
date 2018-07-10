@@ -6,7 +6,7 @@ This is quite simple in Python. Let's say we'd like find out the user's name:
 
 ```python
 name = input('Hello, what is your name?\n')
-print('Hi %s! Nice to meet you, hope you like Python!' % name)
+print('Hi {}! Nice to meet you, hope you like Python!'.format(name))
 ```
 
 It's as simple as that! Note the following:
@@ -17,6 +17,5 @@ It's as simple as that! Note the following:
 
 ## Exercises
 
-1. Create a variable called `age` and prompt the user for theirs. Convert that age into an integer \(recall you can assign a variable a new value with its current one\). Multiply that age by 3 and print the result.
-2. Create a python script called `rectangle_perimeter.py`, it asks the user for the rectangle's length and width and print the perimeter.
-
+1. Create a variable called `age` and prompt the user for theirs. Convert `age` into an integer, multiply it by 3 and print the result.
+2. Create a python script called `rectangle_perimeter.py`, it asks the user for the rectangle's `length` and `width` and print the perimeter.
