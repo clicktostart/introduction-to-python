@@ -16,4 +16,3 @@ There are of course many other components but these above are the essentials.
 ## I/O
 
 It's easy to determine whether a device is an input device or an output device based on what it's doing? Does it provide the computer with information? A microphone does. So does a mouse \(where you'd like to move the cursor\), a keyboard press, a touch on the screen, the button that controls the volume. If you're trying to determine whether something is an output device, ask does it gives the user information? A screen shows you what's happening with your OS and application, a speaker gives the user sound from a file or stream, the printer gives you a tangible document or photo. Few things in the world live as absolutes, there are devices that are both like headphone set with microphones commonly used in gaming or a touch screen on your smartphone.
-

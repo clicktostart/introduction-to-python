@@ -7,4 +7,3 @@ If you have previous programming experience you would probably find this book ea
 ## A Note on Style
 
 As is common with many programming books, code and commands are usually highlighted in a block. To get the most out of the content, you're encouraged to write the code instead of copying and pasting. It'll do wonders for your memory.
-

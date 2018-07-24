@@ -84,4 +84,3 @@ def needs_id_simple(age):
 needs_id_simple(67) # True
 needs_id_simple(3) # False
 ```
-

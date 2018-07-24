@@ -45,4 +45,3 @@ def rps_winner(player1_choice, player2_choice):
 
 print(rps_winner(human_choice, computer_choice))
 ```
-

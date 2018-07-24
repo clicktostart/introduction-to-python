@@ -54,4 +54,3 @@ Work out the following boolean expressions
 5. False and not \(True or \(False or not False\)\)
 6. True and True and True
 7. True and not \(True or not \(False and True\)\)
-

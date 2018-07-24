@@ -12,4 +12,3 @@ def is_valid_user(username):
 ```
 
 Well if our entire program checked the input once, it would end with False if I entered 'eric williams'. What if we wanted to give the user 3 times before we stop them from trying? Loops can be useful then.
-

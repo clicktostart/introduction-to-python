@@ -59,4 +59,3 @@ student_profile['favourite course'] # 'python'
    2. How many trophies did ajax win? Get the value from the dictionary.
    3. We have a function that’s interested in the teams but not so much their trophy haul. Return a list of keys for `clubs`
    4. A very ambitious but deluded Manchester City fan claims that his club has won champions league. Verify with a condition that his club has not.
-

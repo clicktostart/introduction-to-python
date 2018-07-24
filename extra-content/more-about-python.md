@@ -12,7 +12,7 @@ Assembly level languages provides some abstraction over machine level. In assemb
 
 High level languages abstract even further from machine code. In many cases they use near natural language like expressions to provide instructions to the computer. These abstractions come with some major benefits: much easier to remember, can be made to run on many different machines, takes away tedious tasks like managing memory and registers. The major downside is that code written in high level languages tend to take longer to prepare and execute and usually consume more computer resources. High level languages are converted to machine code by a compiler or interpreter.
 
-## Compiled or Interpreted?
+## Compiled or Interpreted
 
 As mentioned before, these take code from a high level language and convert them to machine code so the computer can run them. If the code is translated by a compiler then the computer creates machine readable instructions before we run the program. If the code is translated by an interpreter then the computer creates machine readable instructions while the program is being run.
 

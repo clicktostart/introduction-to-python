@@ -71,6 +71,3 @@ Please enter your favourite number!
 
 1. Write a function `guess_num` that creates a random number between 1 and 10 then asks the user to enter a number within that range. If the number is smaller or larger the user will be notified accordingly. The user can only enter if the number entered is correct.
 2. Write a function `print_until_odd` that prints out the elements of a list but stops if the current number is odd. If it prints out every element of the list then display a congratulatory message. If if finds an odd number, tell the user that one was found and exit the loop.
-
-
-

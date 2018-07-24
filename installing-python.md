@@ -28,4 +28,3 @@ If you'd prefer a more in-depth guide, feel free to check out these tutorials or
 
 * Windows - [https://www.youtube.com/watch?v=dX2-V2BocqQ](https://www.youtube.com/watch?v=dX2-V2BocqQ)
 * macOS - [https://www.youtube.com/watch?v=uA8SA81nivg](https://www.youtube.com/watch?v=uA8SA81nivg)
-

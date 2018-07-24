@@ -66,6 +66,3 @@ coordinate1[-1] # 3
 
 1. t1 = \('w', 'a', 'l', 'l', 'e', 4, 0, 4\) Slice the tuple so that it only contains \('w', 'a', 'l', 'l', 'e'\).
 2. Write a function `funky_points_sum` which takes tuples `t1` and `t2` as arguments and adds the **2nd item of t1** to the **1st item of t2**, then multiplies that result by the **2nd item of t2** minus the **first item of t1**.
-
-
-

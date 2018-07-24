@@ -17,4 +17,3 @@ Python is a straightforward, near English like programming language that's used 
 It's rare that you'll create software in this world and not work on it afterwards. Python was first released in 1991, there's a chance that it's older than you! Throughout the years the language has seen many changes to keep it up to date with current technology and to push new boundaries of programming. The last major change is backwards incompatible i.e. code written in Python 3 isn't expected to work or behave as expected if run as a Python 2 program.
 
 Python 3 was released in 2008... the reasons for not using it in this day and age are completely moot with the exception of maintaining legacy code. If a stranger asks you to code a new program in Python 2 say "No, go away, you're a creep, and use Python 3 already". We'll be using version 3 in this course.
-
