@@ -30,6 +30,7 @@
     * [Elif and Else Statements](decisions/elif-and-else-statements.md)
     * [Exercises](decisions/exercises.md)
     * [Rock, Paper, Scissors](decisions/rock-paper-scissors.md)
+    * [Game Exercise](decisions/game-exercise.md)
 * [Lists](lists.md)
 * [Loops](loops/README.md)
     * [For Loops](loops/for-loops.md)
