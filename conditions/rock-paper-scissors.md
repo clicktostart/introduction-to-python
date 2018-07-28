@@ -37,9 +37,9 @@ def rps_winner(player1_choice, player2_choice):
     if player1_choice == player2_choice:
         return 'Game is tied'
     # 2) Else, if the player1 is rock and the computer is scissors
-    # 3) Or if the player is paper and the computer is rock
-    # 4) Or, if the player is scissors and the computer is paper then return
-    # 'Player 1 wins!'
+        # 3) Or if the player is paper and the computer is rock
+        # 4) Or, if the player is scissors and the computer is paper then return
+        # 'Player 1 wins!'
     # 5) Otherwise return 'Player 2 wins!'
 
 
