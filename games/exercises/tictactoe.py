@@ -41,11 +41,11 @@ import os
 # We use SDL to put the game window at the screen's centre
 os.environ['SDL_VIDEO_CENTERED'] = '1'
 SCREEN_SIZE = (SCREEN_WIDTH,SCREEN_HEIGHT)
-BLACK = C1  
-WHITE = C2  
-GREEN = C3  
-BLUE  = C4  
-RED   = C5  
+BLACK = C1
+WHITE = C2
+GREEN = C3
+BLUE  = C4
+RED   = C5
 REPLAY_MESSAGE = 'Press space to play again'
 
 pygame.init()
