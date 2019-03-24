@@ -1,3 +1,8 @@
+Note
+---
+
+This is the syllabus for 2018 iteration of the course. Other learning material is being generated for 2019 onwards. 
+
 # Introduction
 
 This introduction to Python is used for Click To Start's "Programming for Teenagers" course. We'll be explaining the basics of programming and show you the basics of game development to boot.
